@@ -30,6 +30,7 @@ $ heroku buildpacks:add https://github.com/heroku/heroku-buildpack-nginx
 ```
 
 * Create an nginx configuration file
+
 `config/nginx.conf`
 ```
 # Heroku dynos have at least 4 cores.
@@ -135,6 +136,7 @@ http {
 
 * remove puma and add unicorn to the Gemfile
 
+`Gemfile`
 ```rb
 # gem 'puma', '~> 3.11' # remove or comment
 
