@@ -194,7 +194,7 @@ The deploy is done. check if the app works properly on heroku.
 * run the command below to check Nginx on the App.
 
 ```sh
-wget -S --spider <HEROKU_APP_URL>
+$ wget -S --spider <HEROKU_APP_URL>
 ```
 
 The command will perhaps return like...
